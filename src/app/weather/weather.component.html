@@ -1,0 +1,8 @@
+<!-- <p *ngFor="let weather of weathers">
+  {{weather.id}} - {{weather.name}}
+</p> -->
+
+<mat-list role="list">
+  <mat-list-item *ngFor="let weather of weathers" role="listitem">{{weather.id}} - {{weather.name}}</mat-list-item>
+</mat-list>
+
